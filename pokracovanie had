@@ -1,0 +1,30 @@
+x = 1
+y = 1
+input.rotation(Rotation.PITCH)
+def on_button_pressed_a():
+    global x 
+    led.unplot(x, y)
+    x = x - 1
+    if x < 4
+    
+    led.toggle(x, y)
+    pass
+    
+input.on_button_pressed(
+    Button.A,
+     on_button_pressed_a
+     )
+
+
+def on_button_pressed_b():
+    
+    global x
+    led.unplot(x, y)
+    x = x + 1
+    led.toggle(x,y )
+    pass    
+    
+input.on_button_pressed(
+    Button.B,
+     on_button_pressed_b
+     )
